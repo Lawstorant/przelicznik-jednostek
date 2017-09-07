@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Tomasz Pakuła">
+	<meta name="theme-color" content="#00796B">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Przelicznik</title>
+	<link rel="stylesheet" href="styl.css" media="screen" title="styl">
+	<script type="text/javascript" src="liczenie.js" charset="utf-8"></script>
+</head>
+
+<body>
+	<div id="stop_reklam"></div>
+	<div class="pasek" id="pasek">
+		<!-- Pasek tytułowy -->
+		<p class="gora">Przelicznik systemów liczbowych</p>
+		<p class="gora mniej">
+			<a href="mailto:forest10pl@gmail.com?subject=Przelicznik%20jednostek">2016 Tomasz Pakuła</a>
+			<a href="../" style="margin-left: 20px;">Powrót do projektów</a>
+		</p>
+	</div>
+	<div id="karty" class="karty">
+		<div id="karta1" class="karta">
+			<p>Całkowite</p>
+		</div>
+		<div id="karta2" class="karta karta2 tyl2">
+			<p>Ułamki</p>
+		</div><br>
+	</div>
+	<div id="glowny" class="glowny">
+		<p class="title">Wejście</p>
+		<input id="wejscie" class="wej" type="text" name="wejscie" autocomplete="off">
+		<div id="bt1" class="bt">Dwójkowy</div>
+		<div id="bt2" class="bt">Ósemkowy</div>
+		<div id="bt3" class="bt">Dziesiętny</div>
+		<div id="bt4" class="bt">Szesnastkowy</div>
+		<div id="bt5" class="bt">U1</div>
+		<div id="bt6" class="bt">U2</div>
+		<div id="bt13" class="bt" style="display: none;">Dziesiętny</div>
+		<div id="bt14" class="bt" style="display: none;">Binarny</div>
+		<hr>
+		<p class="title">Wyjście</p><br>
+		<div id="bt7" class="bt">Dwójkowy</div>
+		<div id="bt8" class="bt">Ósemkowy</div>
+		<div id="bt9" class="bt">Dziesiętny</div>
+		<div id="bt10" class="bt">Szesnastkowy</div>
+		<div id="bt11" class="bt">U1</div>
+		<div id="bt12" class="bt">U2</div>
+		<div id="bt15" class="bt" style="display: none;">Dziesiętny</div>
+		<div id="bt16" class="bt" style="display: none;">Binarny</div>
+		<div id="baza" class="baza">
+			<span id="baza_tekst">Baza:</span>
+			<button id="minus" class="minus">-</button>
+			<input id="baza_value" class="wej baz" type="text" name="baza" value="8" style="width: 50px;" autocomplete="off">
+			<button id="plus" class="plus">+</button>
+		</div>
+		<input id="wyjscie" class="wej wyj" readonly="readonly" type="text" name="wyjscie" autocomplete="off">
+	</div>
+	<div id="start_reklam"></div>
+</body>
+<script type="text/javascript" src="../cba-bez-reklam/cba_bez_reklam.js" charset="utf-8"></script>
+
+</html>
