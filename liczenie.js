@@ -1,4 +1,4 @@
-window.onload = function() {
+document.addEventListener("DOMContentLoaded", function() {
 	function obl() {
 		//Dotyczy liczb całkowitych
 		//Wczytuję dane i zamieniam je na typ przejściowy - Integer
@@ -443,4 +443,4 @@ window.onload = function() {
 			}
 		}
 	};
-};
+});
